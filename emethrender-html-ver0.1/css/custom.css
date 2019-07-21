@@ -1,0 +1,196 @@
+/* CSS Document for EMETH RENDER */
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 130%;
+}
+
+
+/* header section */
+header.clone {
+  top: 0;
+}
+header.clone #logo .inner img {
+  margin-top: 30px;
+}
+header.clone #mainmenu {
+  height: auto;
+  margin-bottom: 0;
+  padding-top: 50px;
+  position: relative;
+}
+header.clone #mainmenu li a {
+  line-height: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+#mainmenu li.signin {
+  position: absolute;
+  right: 125px;
+  top: 10px;
+}
+#mainmenu li.signin a {
+  background: rgba(255,255,255,0.1);
+  display: block;
+  height: 35px;
+  line-height: 37px !important;
+  width: 120px;
+}
+#mainmenu li.register {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+#mainmenu li.register a {
+  background: #b23222;
+  display: block;
+  height: 35px;
+  line-height: 37px !important;
+  width: 120px;
+}
+
+@media screen and (max-width: 992px) {
+  
+  header.clone #logo .inner img {
+    margin-top: 0;
+  }
+  header.clone #mainmenu {
+    padding-top: 0;
+  }
+  header.clone #mainmenu li a {
+    line-height: 35px;
+  }
+  #mainmenu li.signin, 
+  #mainmenu li.register {
+    border: 0;
+    padding: 10px 0;
+    position: relative;
+    right: auto;
+    top: auto;
+  }
+  #mainmenu li.signin a {
+    height: auto;
+    line-height: 37px !important;
+    margin-top: 10px;
+    text-align: center;
+    width: auto;
+  }
+  #mainmenu li.register a {
+    height: auto;
+    line-height: 37px !important;
+    text-align: center;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  
+  header.clone #logo .inner img {
+    height: 34px;
+  }
+  
+}
+
+
+/* revolution-slider */
+#revolution-slider .ultra-big-white {
+  border: 0px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 5em;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-bottom: 1em;
+  text-align: center;
+}
+#revolution-slider .tp-caption.sfr {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
+}
+#revolution-slider a {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+@media screen and (max-width: 992px) {
+  #revolution-slider .tp-caption.sfr {
+    font-size: 1.5em !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #revolution-slider .tp-caption.sfr {
+    font-size: 1.2em !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #revolution-slider .tp-caption.sfr {
+    font-size: 1em !important;
+  }
+}
+
+
+/* rendering section */
+.feature-box-image h3 {
+  font-weight: 500;
+}
+
+/* pricing section */
+.price-row small {
+  color: #fff;
+}
+
+/* reason section */
+.dark #page-reason {
+  background: #d04837;
+}
+
+/* testimonial-full section */
+#testimonial-full {
+  background: #b23222;
+}
+#testimonial-full blockquote {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+}
+#testimonial-full blockquote span {
+  font-weight: 300;
+}
+
+/* contact section */
+address span {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* toTop */
+#toTop {
+  background-color: rgba(255,255,255,0.6);
+  background-image: none;
+  border-radius: 50%;
+}
+#toTop > span {
+  display: block;
+  height: 51px;
+  position: relative;
+  width: 51px;
+}
+#toTop span:before {
+  content: "";
+  border-style: solid;
+  border-width: 0 8px 10px 8px;
+  border-color: transparent transparent #555 transparent;
+  left: 18px;
+  position: absolute;
+  top: 18px;
+}
+#toTopHover {
+  background-color: rgba(255,255,255,0.9);
+  background-image: none;
+  border-radius: 50%;
+}
